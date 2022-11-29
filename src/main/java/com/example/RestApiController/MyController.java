@@ -21,7 +21,6 @@ public class MyController
         System.out.println("the address of bean in my controller :-> " + obj1);
     }
 
-
     Map<Integer, User> hm = new HashMap<>();
 
     @GetMapping("/get_users")
